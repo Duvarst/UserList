@@ -1,31 +1,30 @@
-
 const userinfo = [
-    {	
-    label: 'email',
+  {
+    label: "email",
     key: "email",
-    value: '',
-    pattern: /.+/
-    },
-    {
+    value: "",
+    pattern: /.+/,
+  },
+  {
     label: "First Name",
     key: "first_name",
-    value: '',
-    pattern: /^[a-zA-Z ]{2,30}$/
-    },
-    {
+    value: "",
+    pattern: /^[a-zA-Z ]{2,30}$/,
+  },
+  {
     label: "Last Name",
     key: "last_name",
-    value: '',
-    pattern: /^[a-zA-Z ]{2,30}$/
-    },
-    {
+    value: "",
+    pattern: /^[a-zA-Z ]{2,30}$/,
+  },
+  {
     label: "Link to the avatar ",
     key: "avatar",
-    value: '',
-    pattern: /.+/
-    }
-]
+    value: "",
+    pattern: /.+/,
+  },
+];
 
 export function listUserInfo() {
-   return userinfo  
+  return userinfo;
 }

@@ -1,16 +1,12 @@
 <template>
-    <div>
-
-    </div>
+  <div></div>
 </template>
 <script>
-import {mapGetters} from 'vuex'
+import { mapGetters } from "vuex";
 export default {
-    computed: {
-        ...mapGetters('mainstore', {userinfo: 'userinfodata'})
-    }
-}
+  computed: {
+    ...mapGetters("mainstore", { userinfo: "userinfodata" }),
+  },
+};
 </script>
-<style scoped>
-
-</style>
+<style scoped></style>
